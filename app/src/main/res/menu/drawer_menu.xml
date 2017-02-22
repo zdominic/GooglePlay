@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            ></item>
+
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/setting"
+            ></item>
+
+        <item
+            android:id="@+id/menu_theme"
+            android:icon="@drawable/ic_theme"
+            android:title="@string/theme"
+            ></item>
+
+        <item
+            android:id="@+id/menu_scans"
+            android:icon="@drawable/ic_scans"
+            android:title="@string/install_manager" />
+
+        <item
+            android:id="@+id/menu_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedback"/>
+
+        <item
+            android:id="@+id/menu_updates"
+            android:icon="@drawable/ic_updates"
+            android:title="@string/updates" />
+
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/exit" />
+
+
+    </group>
+
+</menu>

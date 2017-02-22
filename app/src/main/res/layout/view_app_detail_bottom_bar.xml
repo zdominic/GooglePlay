@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/detail_bottom_bg"
+              android:padding="8dp"
+              android:gravity="center_vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收藏"
+        android:textColor="@android:color/white"
+        android:background="@drawable/detail_btn_selector"/>
+
+    <com.dominic.googleplay.widget.DownloadButton
+        android:id="@+id/download_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/download"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginLeft="8dp"
+        android:padding="18dp"
+        android:background="@drawable/selector_app_detail_bottom_normal"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/detail_btn_selector"/>
+
+
+
+</LinearLayout>
